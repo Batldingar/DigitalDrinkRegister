@@ -6,7 +6,7 @@ import android.util.Log;
 
 public class DigitalDrinkRegister extends AppCompatActivity {
 
-    private static final String TAG = "[DigitalDrinkRegister]";
+    private static final String TAG = DigitalDrinkRegister.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
